@@ -1,0 +1,12 @@
+pip install apple-music-analyser
+# import to parse an archive, save and load a pickle file
+from apple_music_analyser.Utility import Utility
+ 
+# import to actually parse and process the data
+from apple_music_analyser.VisualizationDataframe import VisualizationDataframe
+ 
+# import to filter the df
+from apple_music_analyser.Query import QueryFactory
+ 
+# import to build visualizations
+from apple_music_analyser.DataVisualization import SunburstVisualization, RankingListVisualization, HeatMapVisualization, PieChartVisualization, BarChartVisualization
